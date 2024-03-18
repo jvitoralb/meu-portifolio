@@ -1,0 +1,21 @@
+@import './configs.css';
+
+
+main#contact-page-main {
+    height: 100vh;
+    padding: 12vh 6vw;
+}
+
+section {
+    padding: 18px 12px;
+}
+
+.social {
+    font-size: 24px;
+    padding: 6px;
+}
+
+.email-address {
+    font-size: 24px;
+    padding: 6px;
+}

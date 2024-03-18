@@ -1,0 +1,97 @@
+@import './configs.css';
+
+
+section#welcome-section {
+    height: 60vh;
+    padding: 12vh 6vw;
+}
+
+section#welcome-section > * {
+    max-width: 300px;
+}
+
+.welcome-sec-btn-container {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-sec-btn {
+    width: 70px;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    margin: 6px;
+    border: 1px solid var(--color-yellow);
+    border-radius: 3px;
+}
+
+.welcome-sec-btn:hover {
+    color: var(--color-white);
+}
+
+section#recent-works-section {
+    padding: 12vh 6vw;
+}
+
+.work-cards-container {
+    padding: 16px 0;
+    display: flex;
+    width: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.work-card {
+    color: var(--color-black);
+    border: 1px solid var(--color-yellow);
+    background-color: var(--color-white);
+    border-radius: 3px;
+    padding: 6px;
+    margin: 6px;
+    min-width: 60vw;
+    width: 250px;
+}
+
+.work-card > * {
+    padding: 6px;
+}
+
+.work-card-link {
+    color: var(--color-black);
+}
+
+.work-card-link:hover {
+    color: rgb(70, 70, 70);
+    text-decoration: underline;
+}
+
+@media (min-width: 460px) {
+    .work-card {
+        height: 240px;
+        min-width: 250px;
+    }
+
+    .work-card > h2 {
+        padding-bottom: 12px;
+    }
+}
+
+@media (min-width: 878px) {
+    .work-cards-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.works-sec-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-works-btn {
+    text-align: center;
+    margin: 12px 0;
+    padding: 6px;
+}

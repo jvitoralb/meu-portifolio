@@ -1,0 +1,70 @@
+@import './configs.css';
+
+
+section#my-projects-section {
+    padding: 12vh 6vw;
+}
+
+section#my-projects-section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    padding: 6vh 0;
+}
+
+.project > * {
+    padding: 6px;
+}
+
+.project-inverse {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.project h2 a {
+    color: var(--color-yellow);
+}
+
+.project div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project img {
+    min-width: 90px;
+    background-color: rgba(240, 248, 255, 0.3);
+}
+
+.text { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+@media (min-width: 640px) {
+    .project img {
+        min-width: 120px;
+        margin: 6px 12px;
+    }
+}
+
+@media (min-width: 860px) {
+    .project {
+        padding: 3vh 12vw;
+        width: 860px;
+        min-height: 180px;
+    }
+}
+
+@media (min-width: 1060px) {
+    .project {
+        width: 1060px;
+    }
+}
