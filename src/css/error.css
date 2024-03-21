@@ -1,0 +1,7 @@
+@import './configs.css';
+
+
+section#error-section {
+    height: 100vh;
+    padding: 12vh 6vw;
+}
