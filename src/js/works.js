@@ -35,7 +35,7 @@ class GenerateProjectArticle {
     }
     genDescription() {
         const projectDescription = document.createElement('p');
-        projectDescription.setAttribute('id', 'project-description');
+        projectDescription.setAttribute('id', `project-${this.id}-description`);
         projectDescription.appendChild(document.createTextNode(this.desc));
 
         this.container.appendChild(projectDescription);
