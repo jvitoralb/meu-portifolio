@@ -27,16 +27,16 @@
             </label>
             <ul class="navbar-links-list">
                 <li id="home-nav-item">
-                    <a id="home-link" href="/index.html" class="nav-link active">HOME</a>
+                    <a id="home-link" href="/index.html" class="nav-link active"></a>
                 </li>
                 <li id="about-me-nav-item">
-                    <a id="about-me-link" href="/about.html" class="nav-link">ABOUT ME</a>
+                    <a id="about-me-link" href="/about.html" class="nav-link"></a>
                 </li>
                 <li id="works-nav-item">
-                    <a id="works-link" href="/works.html" class="nav-link">WORKS</a>
+                    <a id="works-link" href="/works.html" class="nav-link"></a>
                 </li>
                 <li id="contact-nav-item">
-                    <a id="contact-link" href="/contact.html" class="nav-link">CONTACT</a>
+                    <a id="contact-link" href="/contact.html" class="nav-link"></a>
                 </li>
             </ul>
         </nav>
@@ -44,38 +44,25 @@
 
     <main>
         <section id="welcome-section">
-            <h1 id="welcome-sec-header" class="welcome-header">
-                <span class="highlight break-line">Hello!</span>
-                I'm a <span class="highlight">Full Stack</span> Software Developer
-            </h1>
+            <h1 id="welcome-sec-header" class="welcome-header"></h1>
             <div class="welcome-sec-btn-container">
-                <a href="/works.html" title="Go to Works page" class="welcome-sec-btn">
-                    Works
-                </a>
-                <a href="/contact.html" title="Go to Contact page" class="welcome-sec-btn">
-                    Contact
-                </a>
+                <a href="/works.html" title="Go to Works page" class="welcome-sec-btn"></a>
+                <a href="/contact.html" title="Go to Contact page" class="welcome-sec-btn"></a>
             </div>
         </section>
 
         <section id="recent-works-section">
-            <h1 id="recent-works-sec-header">
-                Most recent <span class="highlight">works</span>
-            </h1>
+            <h1 id="recent-works-sec-header"></h1>
             <div class="work-cards-container">
                 <div id="work-card-1" class="work-card">
                     <h2>
                         <a 
                             href="works.html#project-1-info" title="See this project on works page"
-                            class="work-card-link"
-                            >
-                            My Books App
+                            id="work-1-card-link" class="work-card-link"
+                        >
                         </a>
                     </h2>
-                    <p>
-                        A Full Stack MERN application built with TypeScript and Reactjs. 
-                        The backend was built following the REST and Microservices architectural styles.
-                    </p>
+                    <p id="work-1-card-description"></p>
                 </div>
                 <div id="work-card-2" class="work-card">
                     <h2>
@@ -83,13 +70,9 @@
                             href="works.html#project-2-info" title="See this project on works page" 
                             class="work-card-link"
                         >
-                            Biblioteca API
                         </a>
                     </h2>
-                    <p>
-                        Uma REST API desenvolvida para  simular operações de uma biblioteca, como registrar livros, 
-                        usuários e emitir empréstimo de livros aos usuários registrados, construída em Java
-                    </p>
+                    <p id="work-2-card-description"></p>
                 </div>
                 <div id="work-card-3" class="work-card">
                     <h2>
@@ -97,13 +80,9 @@
                             href="works.html#project-3-info" title="See this project on works page" 
                             class="work-card-link"
                         >
-                            Quality Assurance App
                         </a>
                     </h2>
-                    <p>
-                        An end-to-end application built with JavaScript to apply Test Driven Development 
-                        using Chaijs, Nodejs, Express, and MongoDB.
-                    </p>
+                    <p id="work-3-card-description"></p>
                 </div>
             </div>
             <div class="works-sec-btn-container">

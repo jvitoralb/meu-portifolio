@@ -1,0 +1,23 @@
+{
+    "title": "jvitoralb Portfolio",
+    "homeLink": "HOME",
+    "aboutMeLink": "ABOUT ME",
+    "worksLink": "WORKS",
+    "contactLink": "CONTACT",
+    "welcomeSecHeader": "<span class=\"highlight break-line\">Hello!</span>I'm a <span class=\"highlight\">Full Stack</span> Software Developer",
+    "welcomeSecBtn1": {
+        "text": "Works",
+        "title": "Go to Works page"
+    },
+    "welcomeSecBtn2": {
+        "text": "Contact",
+        "title": "Go to Contact page"
+    },
+    "recentWorksSecHeader": "Most recent <span class=\"highlight\">works</span>",
+    "work1CardLink": "My Books App",
+    "work1CardDescription": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles.",
+    "work2CardLink": "Biblioteca API",
+    "work2CardDescription": "Uma REST API desenvolvida para  simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados, construída em Java.",
+    "work3CardLink": "Quality Assurance App",
+    "work3CardDescription": "An end-to-end application built with JavaScript to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB."
+}
