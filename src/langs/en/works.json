@@ -1,0 +1,14 @@
+{
+    "title": "Works - jvitoralb Portfolio",
+    "homeLink": "HOME",
+    "aboutMeLink": "ABOUT ME",
+    "worksLink": "WORKS",
+    "contactLink": "CONTACT",
+    "myProjectsSecHeader": "My Projects",
+    "project1Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles. Here the challenge was to use JSON Web Tokens to handle user data securely. The development process followed a TDD approach.",
+    "project2Description": "A REST API was developed for the Santander Bootcamp 2023. The objective was to simulate library operations, such as registering books, and users and issuing book loans to registered users. The API was developed with Java using Spring Framework and PostgreSQL.",
+    "project3Description": "An end-to-end application, hosted in the cloud, and built with JavaScript. The goal was to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB. The backend architecture was developed following the Microservices style, aiming services' autonomy and a better scalability.",
+    "project4Description": "A Fullstack Web application, developed using Vuejs and Nestjs, that reads spreadsheets with the Exceljs library and uses its data to calculate financial indicators, and thus, demonstrate the indicators in graphs built with D3.js. The application was developed in a Docker environment, where the backend was created following a TDD practice with Jest.",
+    "project5Description": "A REST API that controls a film catalog, where this catalog can only be accessed by an authenticated user. This project was built as part of an application process. The development follows a TDD practice, and the deployment uses docker hub with render. It may take a while to load, but the service is online!",
+    "project6Description": "A Full Stack project with HTML and CSS in Frontend, where the challenge was to develop the Backend architecture following a Microservices style and use CRUD operations."
+}
