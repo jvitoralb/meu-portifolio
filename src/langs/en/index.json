@@ -17,7 +17,7 @@
     "workCard1Link": "My Books App",
     "workCard1Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles.",
     "workCard2Link": "Biblioteca API",
-    "workCard2Description": "Uma REST API desenvolvida para  simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados, construída em Java.",
+    "workCard2Description": "A REST API built with Java to simulate library operations, such as registering books, and users and issuing book loans to registered users.",
     "workCard3Link": "Quality Assurance App",
     "workCard3Description": "An end-to-end application built with JavaScript to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB."
 }
