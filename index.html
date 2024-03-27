@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="src/images/favicon.ico">
     <link rel="manifest" href="src/images/site.webmanifest">
-    <title>jvitoralb Portfolio</title>
+    <title>jvitoralb Portfólio</title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                 </li>
                 <li id="lang-selector-nav-item">
                     <select name="lang-selector" id="lang-selector">
-                        <option name="portugues" value="pt-BR">Português</option>
+                        <option name="portugues" value="pt-BR" selected>Português</option>
                         <option name="english" value="en-US">English</option>
                     </select>
                 </li>
@@ -50,7 +50,9 @@
 
     <main>
         <section id="welcome-section">
-            <h1 id="welcome-sec-header" class="welcome-header"></h1>
+            <h1 id="welcome-sec-header" class="welcome-header">
+                <span class="highlight break-line">Olá!</span>Eu sou Desenvolvedor de Software <span class="highlight">Full Stack</span>
+            </h1>
             <div class="welcome-sec-btn-container">
                 <a id="welcome-sec-btn-1" href="/works.html" title="" class="welcome-sec-btn"></a>
                 <a id="welcome-sec-btn-2" href="/contact.html" title="" class="welcome-sec-btn"></a>
@@ -68,7 +70,10 @@
                         >
                         </a>
                     </h2>
-                    <p id="work-card-1-description"></p>
+                    <p id="work-card-1-description">
+                        Um aplicativo Full Stack MERN construído com TypeScript e Reactjs. 
+                        O backend foi construído seguindo os estilos arquiteturais REST e Microservices.
+                    </p>
                 </div>
                 <div id="work-card-2" class="work-card">
                     <h2>
@@ -78,7 +83,10 @@
                         >
                         </a>
                     </h2>
-                    <p id="work-card-2-description"></p>
+                    <p id="work-card-2-description">
+                        Uma REST API desenvolvida em java para simular operações de uma biblioteca, 
+                        como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados.
+                    </p>
                 </div>
                 <div id="work-card-3" class="work-card">
                     <h2>
@@ -88,7 +96,10 @@
                         >
                         </a>
                     </h2>
-                    <p id="work-card-3-description"></p>
+                    <p id="work-card-3-description">
+                        Um aplicativo Full Stack desenvolvido com JavaScript para aplicar TDD 
+                        (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB.
+                    </p>
                 </div>
             </div>
             <div class="works-sec-btn-container">
@@ -96,6 +107,7 @@
                     href="works.html" title="" 
                     id="see-more-projects-link" class="recent-works-btn"
                 >
+                    Ver mais projetos
                 </a>
             </div>
         </section>
