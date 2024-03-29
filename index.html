@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/index.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="src/images/favicon.ico">
-    <link rel="manifest" href="src/images/site.webmanifest">
-    <title>jvitoralb Portfolio</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./src/images/favicon.ico">
+    <link rel="manifest" href="./src/images/site.webmanifest">
+    <title>jvitoralb Portfólio</title>
 </head>
 
 <body>
@@ -27,16 +27,30 @@
             </label>
             <ul class="navbar-links-list">
                 <li id="home-nav-item">
-                    <a id="home-link" href="/index.html" class="nav-link active">HOME</a>
+                    <a id="home-link" href="/index.html" class="nav-link active">
+                        INÍCIO
+                    </a>
                 </li>
                 <li id="about-me-nav-item">
-                    <a id="about-me-link" href="/about.html" class="nav-link">ABOUT ME</a>
+                    <a id="about-me-link" href="/about.html" class="nav-link">
+                        SOBRE MIM
+                    </a>
                 </li>
                 <li id="works-nav-item">
-                    <a id="works-link" href="/works.html" class="nav-link">WORKS</a>
+                    <a id="works-link" href="/works.html" class="nav-link">
+                        PROJETOS
+                    </a>
                 </li>
                 <li id="contact-nav-item">
-                    <a id="contact-link" href="/contact.html" class="nav-link">CONTACT</a>
+                    <a id="contact-link" href="/contact.html" class="nav-link">
+                        CONTATO
+                    </a>
+                </li>
+                <li id="lang-selector-nav-item">
+                    <select name="lang-selector" id="lang-selector">
+                        <option name="portugues" value="pt-BR" selected>Português</option>
+                        <option name="english" value="en-US">English</option>
+                    </select>
                 </li>
             </ul>
         </nav>
@@ -45,73 +59,73 @@
     <main>
         <section id="welcome-section">
             <h1 id="welcome-sec-header" class="welcome-header">
-                <span class="highlight break-line">Hello!</span>
-                I'm a <span class="highlight">Full Stack</span> Software Developer
+                <span class="highlight break-line">Olá!</span>
+                Eu sou Desenvolvedor de Software <span class="highlight">Full Stack</span>
             </h1>
             <div class="welcome-sec-btn-container">
-                <a href="/works.html" title="Go to Works page" class="welcome-sec-btn">
-                    Works
+                <a id="welcome-sec-btn-1" href="/works.html" title="Ir para a página de projetos" class="welcome-sec-btn">
+                    Projetos
                 </a>
-                <a href="/contact.html" title="Go to Contact page" class="welcome-sec-btn">
-                    Contact
+                <a id="welcome-sec-btn-2" href="/contact.html" title="Ir para a página de contato" class="welcome-sec-btn">
+                    Contato
                 </a>
             </div>
         </section>
 
         <section id="recent-works-section">
             <h1 id="recent-works-sec-header">
-                Most recent <span class="highlight">works</span>
+                <span class="highlight">Trabalhos</span> mais recentes
             </h1>
             <div class="work-cards-container">
                 <div id="work-card-1" class="work-card">
                     <h2>
                         <a 
-                            href="works.html#project-1-info" title="See this project on works page"
-                            class="work-card-link"
-                            >
+                            href="works.html#project-1-info" title="Ver na página projetos"
+                            id="work-card-1-link" class="work-card-link"
+                        >
                             My Books App
                         </a>
                     </h2>
-                    <p>
-                        A Full Stack MERN application built with TypeScript and Reactjs. 
-                        The backend was built following the REST and Microservices architectural styles.
+                    <p id="work-card-1-description">
+                        Um aplicativo Full Stack MERN construído com TypeScript e Reactjs. 
+                        O backend foi construído seguindo os estilos arquiteturais REST e Microservices.
                     </p>
                 </div>
                 <div id="work-card-2" class="work-card">
                     <h2>
                         <a 
-                            href="works.html#project-2-info" title="See this project on works page" 
-                            class="work-card-link"
+                            href="works.html#project-2-info" title="Ver na página projetos" 
+                            id="work-card-2-link" class="work-card-link"
                         >
                             Biblioteca API
                         </a>
                     </h2>
-                    <p>
-                        Uma REST API desenvolvida para  simular operações de uma biblioteca, como registrar livros, 
-                        usuários e emitir empréstimo de livros aos usuários registrados, construída em Java
+                    <p id="work-card-2-description">
+                        Uma REST API desenvolvida em java para simular operações de uma biblioteca, 
+                        como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados.
                     </p>
                 </div>
                 <div id="work-card-3" class="work-card">
                     <h2>
                         <a 
-                            href="works.html#project-3-info" title="See this project on works page" 
-                            class="work-card-link"
+                            href="works.html#project-3-info" title="Ver na página projetos" 
+                            id="work-card-3-link" class="work-card-link"
                         >
                             Quality Assurance App
                         </a>
                     </h2>
-                    <p>
-                        An end-to-end application built with JavaScript to apply Test Driven Development 
-                        using Chaijs, Nodejs, Express, and MongoDB.
+                    <p id="work-card-3-description">
+                        Um aplicativo Full Stack desenvolvido com JavaScript para aplicar TDD 
+                        (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB.
                     </p>
                 </div>
             </div>
             <div class="works-sec-btn-container">
                 <a 
-                    href="works.html" title="See more projects project on works page" 
-                    class="recent-works-btn"
+                    href="works.html" title="Ver mais na página projetos" 
+                    id="see-more-projects-link" class="recent-works-btn"
                 >
-                    See more projects
+                    Ver mais projetos
                 </a>
             </div>
         </section>

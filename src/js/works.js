@@ -24,7 +24,7 @@ class GenerateProjectArticle {
         projectLink.setAttribute('href', this.repo);
         projectLink.setAttribute('target', '_blank');
         projectLink.setAttribute('rel', 'external');
-        projectLink.setAttribute('title', 'Go to this project repository');
+        projectLink.setAttribute('title', 'Ir ao repositório desse projeto');
         projectLink.appendChild(document.createTextNode(this.title));
 
         const projectTitle = document.createElement('h2');

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/contact.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="src/images/favicon.ico">
-    <link rel="manifest" href="src/images/site.webmanifest">
-    <title>Contact - jvitoralb Portfolio</title>
+    <link rel="stylesheet" href="./src/css/contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./src/images/favicon.ico">
+    <link rel="manifest" href="./src/images/site.webmanifest">
+    <title>Contato - jvitoralb Portfólio</title>
 </head>
 
 <body>
@@ -27,28 +27,42 @@
             </label>
             <ul class="navbar-links-list">
                 <li id="home-nav-item">
-                    <a id="home-link" href="/index.html" class="nav-link">HOME</a>
+                    <a id="home-link" href="/index.html" class="nav-link">
+                        INÍCIO
+                    </a>
                 </li>
                 <li id="about-me-nav-item">
-                    <a id="about-me-link" href="/about.html" class="nav-link">ABOUT ME</a>
+                    <a id="about-me-link" href="/about.html" class="nav-link">
+                        SOBRE MIM
+                    </a>
                 </li>
                 <li id="works-nav-item">
-                    <a id="works-link" href="/works.html" class="nav-link">WORKS</a>
+                    <a id="works-link" href="/works.html" class="nav-link">
+                        PROJETOS
+                    </a>
                 </li>
                 <li id="contact-nav-item">
-                    <a id="contact-link" href="/contact.html" class="nav-link active">CONTACT</a>
+                    <a id="contact-link" href="/contact.html" class="nav-link active">
+                        CONTATO
+                    </a>
+                </li>
+                <li id="lang-selector-nav-item">
+                    <select name="lang-selector" id="lang-selector">
+                        <option name="portugues" value="pt-BR" selected>Português</option>
+                        <option name="english" value="en-US">English</option>
+                    </select>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main id="contact-page-main">
-        <h1>
-            If you want to <span class="highlight">work together</span>...
+        <h1 id="contact-main-header">
+            Se tiver interesse em <span class="highlight">trabalhar comigo</span>...
         </h1>
         <section id="socials-section">
-            <h2>
-                You can find me on <span class="highlight">social media</span>...
+            <h2 id="socials-sec-social-media-header">
+                Você pode me encontrar nas<span class="highlight">mídias sociais</span>...
             </h2>
             <a 
                 href="https://www.linkedin.com/in/jvitor-albuquerque/" target="_blank"
@@ -58,8 +72,10 @@
             </a>
         </section>
         <section id="email-section">
-            <h2>Or send me an <span class="highlight">email</span></h2>
-            <p class="email-address">jvitoralbx@gmail.com</p>
+            <h2 id="email-sec-header">
+                Ou me mandar um <span class="highlight">email</span>
+            </h2>
+            <p id="email-sec-description" class="email-address">jvitoralbx@gmail.com</p>
         </section>
     </main>
 

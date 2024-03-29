@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'My Books App',
-        desc: 'A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles. Here the challenge was to use JSON Web Tokens to handle user data securely. The development process followed a TDD approach.',
+        desc: 'Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
         repo: 'https://github.com/jvitoralb/my-books-app',
         img: '/src/images/WEB-APP-IMAGE.png',
     },
@@ -16,7 +16,7 @@ export default [
     {
         id: 3,
         title: 'Quality Assurance App',
-        desc: 'An end-to-end application, hosted in the cloud, and built with JavaScript. The goal was to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB. The backend architecture was developed following the Microservices style, aiming services\' autonomy and a better scalability.',
+        desc: 'Um aplicativo Full Stack, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
         repo: 'https://github.com/jvitoralb/quality-assurance-app',
         img: '/src/images/WEB-APP-IMAGE.png',
     },
@@ -37,7 +37,7 @@ export default [
     {
         id: 6,
         title: 'Microservices App',
-        desc: 'A Full Stack project with HTML and CSS in Frontend, where the challenge was to develop the Backend architecture following a Microservices style and use CRUD operations.',
+        desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
         repo: 'https://github.com/jvitoralb/microservices-apis-app',
         img: '/src/images/WEB-APP-IMAGE.png',
     },
