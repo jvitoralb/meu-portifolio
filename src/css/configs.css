@@ -186,6 +186,21 @@ ul {
     translate: 0%;
 }
 
+select {
+    outline: none;
+    color: inherit;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+select option {
+    background-color: var(--color-black);
+}
+
+.langs-dropdown {
+    padding: 3px 1px;
+}
+
 .jvitoralb-logo {
     margin: 6px;
 }
