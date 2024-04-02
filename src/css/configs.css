@@ -194,19 +194,62 @@ ul {
     translate: 0%;
 }
 
-select {
-    outline: none;
+#lang-selector-nav-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown {
     color: inherit;
-    font-weight: 600;
-    background-color: transparent;
+    background-color: inherit;
+    border: 1px solid transparent;
+    min-width: 85px;
+    width: fit-content;
+    padding: 3px 6px;
+    user-select: none;
+    transition: border 125ms ease-in;
 }
 
-select option {
-    background-color: var(--color-black);
+.dropdown:hover {
+    border-color: var(--color-white);
+    background-color: rgba(240, 248, 255, 0.15);
 }
 
-.langs-dropdown {
-    padding: 3px 1px;
+.dropdown-list {
+    min-width: 85px;
+    display: none;
+    margin: 1px 0;
+    padding: 3px;
+    font-weight: 200;
+    border: 1px solid var(--color-white);
+}
+
+@media (min-width: 690px) {
+    .dropdown-list {
+        position: absolute;
+        top: 48px;
+    }
+}
+
+.dropdown-list li {
+    font-weight: normal;
+    font-size: small;
+    margin: 1px 0;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    transition: border 125ms ease-in-out;
+}
+
+.dropdown-list li:hover {
+    color: var(--color-yellow);
+    cursor: pointer;
+    text-decoration: underline;
+    border-color: rgba(240, 248, 255, 0.30);
+    background-color: rgba(240, 248, 255, 0.15);
+}
+
+.open-dropdown {
+    display: block;
 }
 
 .jvitoralb-logo {
