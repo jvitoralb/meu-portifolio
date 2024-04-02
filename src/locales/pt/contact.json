@@ -1,0 +1,14 @@
+{
+    "homeLink": "INÍCIO",
+    "aboutMeLink": "SOBRE MIM",
+    "worksLink": "PROJETOS",
+    "contactLink": "CONTATO",
+    "contactMainHeader": "Se tiver interesse em <span class=\"highlight\">trabalhar comigo</span>...",
+    "socialsSecSocialMediaHeader": "Você pode me encontrar nas<span class=\"highlight\">mídias sociais</span>...",
+    "socialMediaLinkedinLink": {
+        "text": "LinkedIn",
+        "title": "Ir ao perfil do LinkedIn"
+    },
+    "emailSecHeader": "Ou me mandar um <span class=\"highlight\">email</span>",
+    "emailSecDescription": "jvitoralbx@gmail.com"
+}
