@@ -1,0 +1,15 @@
+{
+    "title": "Contact - jvitoralb Portfolio",
+    "homeLink": "HOME",
+    "aboutMeLink": "ABOUT ME",
+    "worksLink": "WORKS",
+    "contactLink": "CONTACT",
+    "contactMainHeader": "If you want to <span class=\"highlight\">work together</span>...",
+    "socialsSecSocialMediaHeader": "You can find me on <span class=\"highlight\">social media</span>...",
+    "socialMediaLinkedinLink": {
+        "text": "LinkedIn",
+        "title": "Go to LinkedIn profile page"
+    },
+    "emailSecHeader": "Or send me an <span class=\"highlight\">email</span>",
+    "emailSecDescription": "jvitoralbx@gmail.com"
+}
