@@ -12,6 +12,21 @@ toggleNavbarInputButton.addEventListener('click', (e) => {
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
 const langsList = document.querySelector('#langs-dropdown-list');
 
+function handleWindowLocation(itemId) {
+    let eng = 'https://www.en.jvitoralb.site';
+    let pt = 'https://www.jvitoralb.site';
+    
+    switch(itemId) {
+        case '0':
+            window.location.replace(pt + window.location.pathname);
+            break;
+        case '1':
+            window.location.replace(eng + window.location.pathname);
+            break;
+        default:
+            window.location.replace(pt + window.location.pathname);
+    }
+}
 
 function dropdownHandler() {
     const langsListClassList = langsList.classList;
@@ -25,6 +40,7 @@ function dropdownHandler() {
     function langsItemsClickEvent(e) {
         langsDropdown.textContent = e.target.textContent;
         closeDropdown();
+        handleWindowLocation(e.target.getAttribute('itemid'));
     }
     function closeDropdown() {
         langsListClassList.remove('open-dropdown');
