@@ -21,10 +21,13 @@ class GenerateProjectArticle {
 
     genTitle() {
         const projectLink = document.createElement('a');
+        let linkTitle = localStorage.getItem('lang') === 'en-US' ? 'Go to this project repository' : 'Ir ao repositório desse projeto'
+        
         projectLink.setAttribute('href', this.repo);
         projectLink.setAttribute('target', '_blank');
         projectLink.setAttribute('rel', 'external');
-        projectLink.setAttribute('title', 'Ir ao repositório desse projeto');
+        projectLink.setAttribute('title', linkTitle);
+
         projectLink.appendChild(document.createTextNode(this.title));
 
         const projectTitle = document.createElement('h2');
@@ -35,7 +38,7 @@ class GenerateProjectArticle {
     }
     genDescription() {
         const projectDescription = document.createElement('p');
-        projectDescription.setAttribute('id', 'project-description');
+        projectDescription.setAttribute('id', `project-${this.id}-description`);
         projectDescription.appendChild(document.createTextNode(this.desc));
 
         this.container.appendChild(projectDescription);
