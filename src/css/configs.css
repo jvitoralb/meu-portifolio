@@ -200,6 +200,7 @@ ul {
 }
 
 .dropdown {
+    font-weight: 600;
     color: inherit;
     background-color: inherit;
     border: 1px solid transparent;
