@@ -1,0 +1,13 @@
+{
+    "homeLink": "INÍCIO",
+    "aboutMeLink": "SOBRE MIM",
+    "worksLink": "PROJETOS",
+    "contactLink": "CONTATO",
+    "myProjectsSecHeader": "Meus Projetos",
+    "project1Description": "Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
+    "project2Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",
+    "project3Description": "Um aplicativo Full Stack, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
+    "project4Description": "Uma aplicação Web Fullstack, desenvolvida com Vuejs e Nestjs, que faz a leitura de planilhas com a biblioteca Exceljs, e utiliza os dados para o cálculo de indicadores financeiros, e assim, demontrar os indicadores em gráficos construídos com D3.js. A aplicação foi desenvolvida em ambiente docker, onde o backend foi feito seguindo uma prática de TDD com Jest.",
+    "project5Description": "Uma REST API que faz o controle de um catálogo de filmes, onde esse catálogo só pode ser acessado caso o usuário seja autenticado. Esse projeto foi construido como parte de um processo seletivo. O desenvolvimento foi feito seguindo uma prática de TDD. E o deploy feito na plataforma render utilizando docker hub e pode demorar um pouco pra carregar, mas o serviço está online!",
+    "project6Description": "Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD."
+}
