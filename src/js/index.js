@@ -43,20 +43,15 @@ const handlePagePath = async () => {
             page = 'index';
     }
 
-    const pageVersions = await Promise.all([
+    const [ pt, en ] = await Promise.all([
         fetch(`src/locales/pt/${page}.json`).then(res => res.json()),
         fetch(`src/locales/en/${page}.json`).then(res => res.json()),
     ]);
 
-    return pageVersions;
-}
-
-const main = async () => {
-    const [ pt, en ] = await handlePagePath();
     handlePageLang(pt, en);
 }
 
-main();
+const main = () => handlePagePath();
 
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
 const dropdownLabel = document.querySelector('#dropdown-label');
@@ -101,3 +96,5 @@ function dropdownHandler() {
 }
 
 langsDropdown.addEventListener('click', dropdownHandler);
+
+window.onload = (e) => main();
