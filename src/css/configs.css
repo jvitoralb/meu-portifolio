@@ -200,13 +200,15 @@ ul {
 }
 
 .dropdown {
+    display: flex;
+    align-items: center;
     font-weight: 600;
     color: inherit;
     background-color: inherit;
     border: 1px solid transparent;
     min-width: 85px;
     width: fit-content;
-    padding: 3px 6px;
+    padding: 1px 3px;
     user-select: none;
     transition: border 125ms ease-in;
 }
@@ -214,6 +216,10 @@ ul {
 .dropdown:hover {
     border-color: var(--color-white);
     background-color: rgba(240, 248, 255, 0.15);
+}
+
+.dropdown span {
+    padding: 0 3px;
 }
 
 .dropdown-list {
@@ -247,6 +253,31 @@ ul {
     text-decoration: underline;
     border-color: rgba(240, 248, 255, 0.30);
     background-color: rgba(240, 248, 255, 0.15);
+}
+
+.gg-chevron-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+
+.gg-chevron-down::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 4px;
+    top: 2px;
 }
 
 .open-dropdown {
