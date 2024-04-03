@@ -10,6 +10,7 @@ toggleNavbarInputButton.addEventListener('click', (e) => {
 });
 
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
+const dropdownLabel = document.querySelector('#dropdown-label');
 const langsList = document.querySelector('#langs-dropdown-list');
 
 function dropdownHandler() {
@@ -17,14 +18,16 @@ function dropdownHandler() {
     const langsItems = langsList.children;
 
     function closeDropdownByDocument(e) {
-        if (langsList.classList.contains('open-dropdown') && ![...langsItems, langsDropdown].includes(e.target)) {
+        let elementsToIgnore = [ ...langsItems, ...langsDropdown.children, langsDropdown ];
+        if (langsList.classList.contains('open-dropdown') && !elementsToIgnore.includes(e.target)) {
             closeDropdown();
         }
     }
     function langsItemsClickEvent(e) {
-        langsDropdown.textContent = e.target.textContent;
+        const dropdownLabel = document.querySelector('#dropdown-label');
+        dropdownLabel.textContent = e.target.textContent;
         closeDropdown();
-        // translate ~~
+        // translate ~~ 
     }
     function closeDropdown() {
         langsListClassList.remove('open-dropdown');
