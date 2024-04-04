@@ -69,21 +69,7 @@ function dropdownHandler(changePageLang) {
         const dropdownLabel = document.querySelector('#langs-dropdown-label');
         dropdownLabel.textContent = e.target.textContent;
         closeDropdown();
-
-        let selectedLang = '';
-
-        switch(e.target.getAttribute('itemid')) {
-            case '0':
-                selectedLang = 'pt-BR';
-                break;
-            case '1':
-                selectedLang = 'en-US';
-                break;
-            default:
-                selectedLang = 'pt-BR';
-        }
-
-        changePageLang(selectedLang);
+        changePageLang(e.target.getAttribute('itemid'));
     }
     function closeDropdown() {
         langsListClassList.remove('open-dropdown');
