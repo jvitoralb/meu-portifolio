@@ -1,13 +1,19 @@
 export default class PageTranslator {
-    constructor(pt, en) {
+    constructor() {
         this.actualLang = document.documentElement.getAttribute('lang');
         this.selectedLang = null;
         this.selectedLangData = null;
         this.supportedLangs = ['pt-BR', 'en-US'];
-        this.languagesData = {
-            'pt-BR': pt,
-            'en-US': en,
+        this.localesTranslations = {
+            'pt-BR': null,
+            'en-US': null,
         }
+    }
+    set setLocalesTranslations(localesData) {
+        this.localesTranslations = {
+            'pt-BR': localesData[0],
+            'en-US': localesData[1],
+        };
     }
     set setSelectedLanguage(selectedLang) {
         let langIdx = this.supportedLangs.indexOf(selectedLang);
@@ -16,7 +22,7 @@ export default class PageTranslator {
         localStorage.setItem('lang', pageLang);
         this.selectedLang = selectedLang;
 
-        this.selectedLangData = this.languagesData[this.selectedLang];
+        this.selectedLangData = this.localesTranslations[this.selectedLang];
     }
 
     jsonKeyToElementId(jsonKey) {
