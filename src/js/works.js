@@ -21,12 +21,10 @@ class GenerateProjectArticle {
 
     genTitle() {
         const projectLink = document.createElement('a');
-        let linkTitle = localStorage.getItem('lang') === 'en-US' ? 'Go to this project repository' : 'Ir ao repositório desse projeto'
-        
         projectLink.setAttribute('href', this.repo);
         projectLink.setAttribute('target', '_blank');
         projectLink.setAttribute('rel', 'external');
-        projectLink.setAttribute('title', linkTitle);
+        projectLink.setAttribute('id', `project-${this.id}-header-link`);
 
         projectLink.appendChild(document.createTextNode(this.title));
 
