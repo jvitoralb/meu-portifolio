@@ -11,52 +11,51 @@ toggleNavbarInputButton.addEventListener('click', (e) => {
     document.body.classList.toggle('hidden-overflow');
 });
 
-const handlePageLang = (pt, en) => {
-    const translator = new PageTranslator(pt, en);
-    const langSelector = document.querySelector('#lang-selector');
+function pageLangHandler() {
+    const translator = new PageTranslator();
 
-    langSelector.addEventListener('change', (e) => {
-        translator.setSelectedLanguage = e.target.value;
+    (async function resolvePageLocales() {
+        let page = '';
+    
+        switch(window.location.pathname) {
+            case '/about.html':
+                page = 'about';
+                break;
+            case '/works.html':
+                page = 'works';
+                break;
+            case '/contact.html':
+                page = 'contact';
+                break;
+            default:
+                page = 'index';
+        }
+    
+        const loadedLocales = await Promise.all([
+            fetch(`src/locales/pt/${page}.json`).then(res => res.json()),
+            fetch(`src/locales/en/${page}.json`).then(res => res.json()),
+        ]);
+
+        translator.setLocalesTranslations = loadedLocales;
+        resolvePageLang();
+    })();
+    function resolvePageLang() {
+        let selectedLang = localStorage.getItem('lang') || window.navigator.language;
+        translator.setSelectedLanguage = selectedLang;
         translator.main();
-    });
-
-    let selectedLang = localStorage.getItem('lang') || window.navigator.language;
-    translator.setSelectedLanguage = selectedLang;
-    langSelector.value = selectedLang;
-    translator.main();
-}
-
-const handlePagePath = async () => {
-    let page = '';
-
-    switch(window.location.pathname) {
-        case '/about.html':
-            page = 'about';
-            break;
-        case '/works.html':
-            page = 'works';
-            break;
-        case '/contact.html':
-            page = 'contact';
-            break;
-        default:
-            page = 'index';
+    }
+    function changePageLang(selectedLang) {
+        translator.setSelectedLanguage = selectedLang;
+        translator.main();
     }
 
-    const [ pt, en ] = await Promise.all([
-        fetch(`src/locales/pt/${page}.json`).then(res => res.json()),
-        fetch(`src/locales/en/${page}.json`).then(res => res.json()),
-    ]);
-
-    handlePageLang(pt, en);
+    return changePageLang;
 }
-
-const main = () => handlePagePath();
 
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
 const langsList = document.querySelector('#langs-dropdown-list');
 
-function dropdownHandler() {
+function dropdownHandler(changePageLang) {
     const langsListClassList = langsList.classList;
     const langsItems = langsList.children;
 
@@ -70,7 +69,21 @@ function dropdownHandler() {
         const dropdownLabel = document.querySelector('#dropdown-label');
         dropdownLabel.textContent = e.target.textContent;
         closeDropdown();
-        // translate ~~ 
+
+        let selectedLang = '';
+
+        switch(e.target.getAttribute('itemid')) {
+            case '0':
+                selectedLang = 'pt-BR';
+                break;
+            case '1':
+                selectedLang = 'en-US';
+                break;
+            default:
+                selectedLang = 'pt-BR';
+        }
+
+        changePageLang(selectedLang);
     }
     function closeDropdown() {
         langsListClassList.remove('open-dropdown');
@@ -94,6 +107,7 @@ function dropdownHandler() {
     }
 }
 
-langsDropdown.addEventListener('click', dropdownHandler);
-
-window.onload = (e) => main();
+window.onload = (e) => {
+    let changePageLang = pageLangHandler();
+    langsDropdown.addEventListener('click', () => dropdownHandler(changePageLang));
+};
