@@ -24,7 +24,7 @@ function dropdownHandler() {
         }
     }
     function langsItemsClickEvent(e) {
-        const dropdownLabel = document.querySelector('#dropdown-label');
+        const dropdownLabel = document.querySelector('#langs-dropdown-label');
         dropdownLabel.textContent = e.target.textContent;
         closeDropdown();
         // translate ~~ 
