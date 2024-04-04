@@ -3,6 +3,7 @@
     "aboutMeLink": "SOBRE MIM",
     "worksLink": "PROJETOS",
     "contactLink": "CONTATO",
+    "langsDropdownLabel": "Português",
     "welcomeSecHeader": "<span class=\"highlight break-line\">Olá!</span>Eu sou Desenvolvedor de Software <span class=\"highlight\">Full Stack</span>",
     "welcomeSecBtn1": {
         "text": "Projetos",

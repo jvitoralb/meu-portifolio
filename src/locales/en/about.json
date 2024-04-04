@@ -4,6 +4,7 @@
     "aboutMeLink": "ABOUT ME",
     "worksLink": "WORKS",
     "contactLink": "CONTACT",
+    "langsDropdownLabel": "English",
     "aboutMe1": "I'm a Fullstack developer, and I've been creating web applications for 2 years. On the front end, I have experience developing static websites, with different technologies, such as complex frameworks and libraries like Reactjs and Vuejs, and simpler ones, like HTML, CSS, and Bootstrap. When it comes to the backend, I have greater familiarity and knowledge. I like working with the Microservices and REST architectural styles, and I always seek to assure the code quality using automated tests following the TDD standard.<span class=\"break-line\"></span>When I'm working, I value good development practices and design patterns, as I believe it helps to write more sustainable code.",
     "aboutMe2": "I like working with talented people, sharing experiences and creating products that make a positive impact. I am a very committed person, who is always looking to learn more, whether about technology and innovation or personal growth.",
     "aboutMeSocialsLinkedin": {

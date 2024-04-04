@@ -3,6 +3,7 @@
     "aboutMeLink": "SOBRE MIM",
     "worksLink": "PROJETOS",
     "contactLink": "CONTATO",
+    "langsDropdownLabel": "Português",
     "myProjectsSecHeader": "Meus Projetos",
     "project1Description": "Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
     "project2Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",

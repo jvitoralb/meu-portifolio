@@ -4,6 +4,7 @@
     "aboutMeLink": "ABOUT ME",
     "worksLink": "WORKS",
     "contactLink": "CONTACT",
+    "langsDropdownLabel": "English",
     "welcomeSecHeader": "<span class=\"highlight break-line\">Hello!</span>I'm a <span class=\"highlight\">Full Stack</span> Software Developer",
     "welcomeSecBtn1": {
         "text": "Works",
