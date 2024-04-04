@@ -54,7 +54,6 @@ const handlePagePath = async () => {
 const main = () => handlePagePath();
 
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
-const dropdownLabel = document.querySelector('#dropdown-label');
 const langsList = document.querySelector('#langs-dropdown-list');
 
 function dropdownHandler() {
