@@ -1,15 +1,14 @@
 import PageTranslator from './translator.js';
 
-const navbarLinks = document.querySelector('.navbar-links-list');
 const toggleNavbarInputButton = document.querySelector('#hamburguer-checkbox');
 
-
-toggleNavbarInputButton.addEventListener('click', (e) => {
+function responsiveNavbarHandler(e) {
+    const navbarLinks = document.querySelector('.navbar-links-list');
     const navbarClassList = navbarLinks.classList;
 
     navbarClassList.toggle('navbar-open');
     document.body.classList.toggle('hidden-overflow');
-});
+}
 
 function pageLangHandler() {
     const translator = new PageTranslator();
@@ -53,9 +52,9 @@ function pageLangHandler() {
 }
 
 const langsDropdown = document.querySelector('#langs-dropdown-btn');
-const langsList = document.querySelector('#langs-dropdown-list');
 
 function dropdownHandler(changePageLang) {
+    const langsList = document.querySelector('#langs-dropdown-list');
     const langsListClassList = langsList.classList;
     const langsItems = langsList.children;
 
@@ -96,4 +95,5 @@ function dropdownHandler(changePageLang) {
 window.onload = (e) => {
     let changePageLang = pageLangHandler();
     langsDropdown.addEventListener('click', () => dropdownHandler(changePageLang));
+    toggleNavbarInputButton.addEventListener('click', responsiveNavbarHandler);
 };
