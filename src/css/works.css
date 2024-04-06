@@ -37,6 +37,7 @@ section#my-projects-section > div {
 }
 
 .project img {
+    display: none;
     min-width: 90px;
     background-color: rgba(240, 248, 255, 0.3);
 }
@@ -46,6 +47,12 @@ section#my-projects-section > div {
     align-items: center;
     justify-content: center;
     width: 300px;
+}
+
+@media (min-width: 520px) {
+    .project img {
+        display: block;
+    }
 }
 
 @media (min-width: 640px) {
