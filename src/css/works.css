@@ -21,16 +21,36 @@ section#my-projects-section > div {
     padding: 6px;
 }
 
+.title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.title-inverse {
+    flex-direction: row;
+}
+
+.title-container svg {
+    padding: 0 6px;
+}
+
+.title-container svg:hover {
+    cursor: pointer;
+}
+
+.title-container h2:hover ~ svg,
+.title-container svg:hover {
+    fill: var(--color-yellow);
+}
+
 .project-inverse {
     text-align: right;
     flex-direction: row-reverse;
 }
 
-.project h2 a {
-    color: var(--color-yellow);
-}
-
-.project div {
+.project div#project-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
