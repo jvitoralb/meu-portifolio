@@ -52,7 +52,7 @@ export default class PageTranslator {
             const el = document.querySelector(`#${this.jsonKeyToElementId(key)}`);
             if (typeof value === 'object') {
                 for(const [ subKey, subValue ] of Object.entries(value)) {
-                    el[subKey] = subValue
+                    el[subKey] = subValue;
                 }
             } else {
                 if (value.includes('</span>')) {
