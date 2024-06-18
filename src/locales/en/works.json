@@ -5,7 +5,7 @@
     "worksLink": "WORKS",
     "contactLink": "CONTACT",
     "langsDropdownLabel": "English",
-    "myProjectsSecHeader": "My Projects",
+    "myProjectsSecHeader": "My <span class=\"highlight\">Projects</span>",
     "project1Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles. Here the challenge was to use JSON Web Tokens to handle user data securely. The development process followed a TDD approach.",
     "project1HeaderLink": {
         "title": "Go to this project repository"

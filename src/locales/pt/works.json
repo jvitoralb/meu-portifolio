@@ -4,7 +4,7 @@
     "worksLink": "PROJETOS",
     "contactLink": "CONTATO",
     "langsDropdownLabel": "Português",
-    "myProjectsSecHeader": "Meus Projetos",
+    "myProjectsSecHeader": "Meus <span class=\"highlight\">Projetos</span>",
     "project1Description": "Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
     "project1HeaderLink": {
         "title": "Ir ao repositório desse projeto"
