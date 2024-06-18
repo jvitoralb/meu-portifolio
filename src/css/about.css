@@ -45,6 +45,30 @@ section#about-me-section h1 {
     }
 }
 
+.socials-icon-anchor-container {
+    display: flex;
+    align-items: center;
+}
+
+.socials-icon-anchor-container:hover > #linkedin-svg,
+.socials-icon-anchor-container:hover > #github-svg,
+.socials-icon-anchor-container:hover > #contact-svg {
+    cursor: pointer;
+}
+
+.socials-icon-anchor-container:hover > #linkedin-svg path,
+.socials-icon-anchor-container:hover > #github-svg,
+.socials-icon-anchor-container:hover > #contact-svg {
+    fill: var(--color-yellow);
+}
+
+#linkedin-svg:hover ~ #about-me-socials-linkedin,
+#github-svg:hover ~ #about-me-socials-github,
+#contact-svg:hover ~ #about-me-socials-contact{
+    color: var(--color-yellow);
+    text-decoration: underline;
+}
+
 .about-me-socials {
     padding: 6px 12px;
     display: flex;
