@@ -1,19 +1,18 @@
 {
     "title": "jvitoralb Portfolio",
-    "homeLink": "HOME",
-    "aboutMeLink": "ABOUT ME",
-    "worksLink": "WORKS",
-    "contactLink": "CONTACT",
+    "homeLink": "Home",
+    "aboutMeLink": "About Me",
+    "worksLink": "Works",
+    "contactLink": "Contact",
     "langsDropdownLabel": "English",
-    "welcomeSecHeader": "<span class=\"highlight break-line\">Hello!</span>I'm a <span class=\"highlight\">Full Stack</span> Software Developer",
-    "welcomeSecBtn1": {
-        "text": "Works",
-        "title": "Go to Works page"
-    },
+    "welcomeSecHeader": "<span class=\"highlight break-line\">Hello!</span>I'm João Vitor <span class=\"highlight\">Albuquerque</span>",
+    "welcomeSubHeader": "<span class=\"highlight sub-title\">Full Stack</span> Web Developer",
     "welcomeSecBtn2": {
-        "text": "Contact",
+        "text": "Get in touch",
         "title": "Go to Contact page"
     },
+    "myServicesSecHeader": "My <span class=\"highlight\">Services</span>",
+    "myServicesDescription": "As a full-stack web developer, I specialize in creating customized web applications. I focus on developing user-friendly interfaces, responsive designs, and secure backends. Whether you need a new application from scratch or support and maintenance, I deliver reliable solutions.",
     "recentWorksSecHeader": "Most recent <span class=\"highlight\">works</span>",
     "workCard1Link": {
         "text": "My Books App",

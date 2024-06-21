@@ -1,18 +1,17 @@
 {
-    "homeLink": "INÍCIO",
-    "aboutMeLink": "SOBRE MIM",
-    "worksLink": "PROJETOS",
-    "contactLink": "CONTATO",
+    "homeLink": "Início",
+    "aboutMeLink": "Sobre",
+    "worksLink": "Projetos",
+    "contactLink": "Contato",
     "langsDropdownLabel": "Português",
-    "welcomeSecHeader": "<span class=\"highlight break-line\">Olá!</span>Eu sou Desenvolvedor de Software <span class=\"highlight\">Full Stack</span>",
-    "welcomeSecBtn1": {
-        "text": "Projetos",
-        "title": "Ir para a página de projetos"
-    },
+    "welcomeSecHeader": "<span class=\"highlight break-line\">Olá!</span>Eu sou João Vitor <span class=\"highlight\">Albuquerque</span>",
+    "welcomeSubHeader": "<span class=\"highlight sub-title\">Desenvolvedor</span> Web Full Stack",
     "welcomeSecBtn2": {
-        "text": "Contato",
+        "text": "Entre em contato",
         "title": "Ir para a página de contato"
     },
+    "myServicesSecHeader": "Meus <span class=\"highlight\">Serviços</span>",
+    "myServicesDescription": "Como desenvolvedor web full-stack, me especializo na criação de aplicações web customizadas. Meu foco é desenvolver interfaces fáceis de usar, designs responsivos e backends seguros. Se você precisa de um novo aplicativo do zero ou de suporte e manutenção, eu forneço soluções confiáveis.",
     "recentWorksSecHeader": "<span class=\"highlight\">Trabalhos</span> mais recentes",
     "workCard1Link": {
         "text": "My Books App",
