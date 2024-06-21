@@ -11,7 +11,8 @@
         "title": "Ir para a página de contato"
     },
     "myServicesSecHeader": "Meus <span class=\"highlight\">Serviços</span>",
-    "myServicesDescription": "Como desenvolvedor web full-stack, me especializo na criação de aplicações web customizadas. Meu foco é desenvolver interfaces fáceis de usar, designs responsivos e backends seguros. Se você precisa de um novo aplicativo do zero ou de suporte e manutenção, eu forneço soluções confiáveis.",
+    "myServicesDescription": "Como desenvolvedor web full stack, me especializo na criação de sites ou softwares personalizados. Meu foco é desenvolver interfaces amigáveis com design responsivo e funcionalidades customizadas, utilizando tecnologias modernas para garantir segurança e desempenho.",
+    "myServicesDescription2": "Se você precisa construir uma presença online do zero ou de suporte e manutenção, eu forneço soluções confiáveis para ajudar você a crescer e se destacar digitalmente.",
     "recentWorksSecHeader": "<span class=\"highlight\">Trabalhos</span> mais recentes",
     "workCard1Link": {
         "text": "My Books App",

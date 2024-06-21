@@ -12,7 +12,8 @@
         "title": "Go to Contact page"
     },
     "myServicesSecHeader": "My <span class=\"highlight\">Services</span>",
-    "myServicesDescription": "As a full-stack web developer, I specialize in creating customized web applications. I focus on developing user-friendly interfaces, responsive designs, and secure backends. Whether you need a new application from scratch or support and maintenance, I deliver reliable solutions.",
+    "myServicesDescription": "As a full-stack web developer, I specialize in creating custom websites and software. My focus is on developing user-friendly interfaces with responsive design and customized features, using modern technologies to ensure security and performance.",
+    "myServicesDescription2": "Whether you need to build an online presence from scratch or need support and maintenance, I provide reliable solutions to help you grow and excel digitally.",
     "recentWorksSecHeader": "Most recent <span class=\"highlight\">works</span>",
     "workCard1Link": {
         "text": "My Books App",
