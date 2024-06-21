@@ -1,14 +1,6 @@
+import './navbar.js';
 import PageTranslator from './translator.js';
 
-const toggleNavbarInputButton = document.querySelector('#hamburguer-checkbox');
-
-function responsiveNavbarHandler(e) {
-    const navbarLinks = document.querySelector('.navbar-links-list');
-    const navbarClassList = navbarLinks.classList;
-
-    navbarClassList.toggle('navbar-open');
-    document.body.classList.toggle('hidden-overflow');
-}
 
 function pageLangHandler() {
     const translator = new PageTranslator();
@@ -95,5 +87,4 @@ function dropdownHandler(changePageLang) {
 window.onload = (e) => {
     let changePageLang = pageLangHandler();
     langsDropdown.addEventListener('click', () => dropdownHandler(changePageLang));
-    toggleNavbarInputButton.addEventListener('click', responsiveNavbarHandler);
 };
