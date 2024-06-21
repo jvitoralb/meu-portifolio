@@ -1,8 +1,8 @@
 {
-    "homeLink": "INÍCIO",
-    "aboutMeLink": "SOBRE MIM",
-    "worksLink": "PROJETOS",
-    "contactLink": "CONTATO",
+    "homeLink": "Início",
+    "aboutMeLink": "Sobre",
+    "worksLink": "Projetos",
+    "contactLink": "Contato",
     "langsDropdownLabel": "Português",
     "contactMainHeader": "Se tiver interesse em <span class=\"highlight\">trabalhar comigo</span>...",
     "socialsSecSocialMediaHeader": "Você pode me encontrar nas <span class=\"highlight\">mídias sociais</span>...",

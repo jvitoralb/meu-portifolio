@@ -1,9 +1,9 @@
 {
     "title": "Works - jvitoralb Portfolio",
-    "homeLink": "HOME",
-    "aboutMeLink": "ABOUT ME",
-    "worksLink": "WORKS",
-    "contactLink": "CONTACT",
+    "homeLink": "Home",
+    "aboutMeLink": "About Me",
+    "worksLink": "Works",
+    "contactLink": "Contact",
     "langsDropdownLabel": "English",
     "myProjectsSecHeader": "My <span class=\"highlight\">Projects</span>",
     "project1Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles. Here the challenge was to use JSON Web Tokens to handle user data securely. The development process followed a TDD approach.",

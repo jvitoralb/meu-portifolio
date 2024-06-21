@@ -1,8 +1,8 @@
 {
-    "homeLink": "INÍCIO",
-    "aboutMeLink": "SOBRE MIM",
-    "worksLink": "PROJETOS",
-    "contactLink": "CONTATO",
+    "homeLink": "Início",
+    "aboutMeLink": "Sobre",
+    "worksLink": "Projetos",
+    "contactLink": "Contato",
     "langsDropdownLabel": "Português",
     "aboutMe1": "Sou desenvolvedor Fullstack, e venho criando aplicações web há 2 anos. No frontend, possuo experiência desenvolvendo sites estáticos, com diferentes tecnologias, desde mais complexas como Reactjs e Vuejs até mais simples, como, HTML, CSS e Bootstrap. Em se tratando de backend, possuo uma maior familiaridade e conhecimento. Gosto de trabalhar com os estilos de arquitetura de Microsserviços e REST, e busco sempre garantir a qualidade do código utilizando testes automatizados seguindo o padrão TDD.<span class=\"break-line\"></span>Quando estou trabalhando, valorizo muito o uso das boas práticas de desenvolvimento e de padrões de design, pois acredito que ajuda a escrever um código mais sustentável.",
     "aboutMe2": "Gosto  de trabalhar com pessoas talentosas, compartilhando experiencias e criando produtos que causem impactos positivos. Sou uma pessoa muito comprometida, que está sempre buscando aprender mais, seja sobre tecnologia e inovação ou crescimento pessoal.",
