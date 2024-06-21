@@ -10,10 +10,6 @@ section#welcome-section > * {
     max-width: 460px;
 }
 
-.welcome-header {
-    padding-top: 28px;
-}
-
 p#welcome-sub-header {
     font-weight: 600;
     padding-top: 6px;
