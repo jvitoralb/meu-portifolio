@@ -28,6 +28,10 @@ section#my-projects-section > div {
     justify-content: flex-end;
 }
 
+.title-container h2 a {
+    font-weight: 600;
+}
+
 .title-inverse {
     flex-direction: row;
 }

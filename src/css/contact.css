@@ -6,6 +6,11 @@ main#contact-page-main {
     padding: 12vh 6vw;
 }
 
+#contact-page-main section h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 section {
     padding: 18px 12px;
 }

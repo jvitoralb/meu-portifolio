@@ -45,6 +45,18 @@ section#about-me-section h1 {
     }
 }
 
+.about-me-socials {
+    font-weight: 600;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me-socials a {
+    padding: 6px;
+}
+
 .socials-icon-anchor-container {
     display: flex;
     align-items: center;
@@ -67,15 +79,4 @@ section#about-me-section h1 {
 #contact-svg:hover ~ #about-me-socials-contact{
     color: var(--color-yellow);
     text-decoration: underline;
-}
-
-.about-me-socials {
-    padding: 6px 12px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.about-me-socials a {
-    padding: 6px;
 }
