@@ -5,35 +5,58 @@ section#my-projects-section {
     padding: 12vh 6vw;
 }
 
-section#my-projects-section > div {
+.articles-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.project {
-    display: flex;
-    padding: 6vh 0;
+@media (min-width: 690px) {
+    .articles-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        justify-content: unset;
+    }
 }
 
-.project > * {
+@media (min-width: 1040px) {
+    .articles-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 18px;
+    }
+}
+
+.project {
+    height: 245px;
+    width: 303px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+    margin: 6px 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.project-info {
+    display: none;
     padding: 6px;
+}
+
+.project-info > p {
+    padding: 12px 0;
 }
 
 .title-container {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
-.title-container h2 a {
+.title-container h3 {
     font-weight: 600;
-}
-
-.title-inverse {
-    flex-direction: row;
+    padding-right: 6px;
 }
 
 .title-container svg {
@@ -49,53 +72,84 @@ section#my-projects-section > div {
     fill: var(--color-yellow);
 }
 
-.project-inverse {
-    text-align: right;
-    flex-direction: row-reverse;
-}
-
-.project div#project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .project img {
-    display: none;
-    min-width: 90px;
+    height: 245px;
+    width: 303px;
     background-color: rgba(240, 248, 255, 0.3);
 }
 
-.text { 
+.gallery-modal {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+}
+
+.gallery-image {
+    max-height: 90vh;
+    max-width: 80vw;
+    min-width: 60vw;
+    padding: 6px;
+}
+
+.image-container {
+    width: 80vw;
+    text-align: center;
+}
+
+@media (min-width: 690px) {
+    .gallery-image {
+        max-width: 60vw;
+        min-width: 45vw;
+        padding: 0 12px;
+    }
+    .image-container {
+        width: 60vw;
+    }
+}
+
+.gallery-container {
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
 }
 
-@media (min-width: 520px) {
-    .project img {
-        display: block;
-    }
+.modal-open {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: rgba(0, 0, 0, 0.500);
+    backdrop-filter: blur(2px);
 }
 
-@media (min-width: 640px) {
-    .project img {
-        min-width: 120px;
-        margin: 6px 12px;
-    }
+.block-scroll {
+    overflow: hidden;
 }
 
-@media (min-width: 860px) {
-    .project {
-        padding: 3vh 12vw;
-        width: 860px;
-        min-height: 180px;
-    }
+.gallery-btn {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
-@media (min-width: 1060px) {
-    .project {
-        width: 1060px;
-    }
+.exit-modal-btn-container {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.exit-modal-btn {
+    padding: 4px 12px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
 }
