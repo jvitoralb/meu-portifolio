@@ -48,6 +48,62 @@ section#my-projects-section {
     padding: 12px 0;
 }
 
+.project-hamburguer {
+    --x-width: calc(var(--hambuguer-height) * 1.41421356237);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: var(--hambuguer-bar-gap);
+    width: max-content;
+    z-index: 2;
+    margin: 6px;
+    position: absolute;
+}
+
+.project-hamburguer::before,
+.project-hamburguer::after,
+.project-hamburguer input {
+    content: "";
+    width: var(--hambuguer-bar-width);
+    height: var(--hambuguer-bar-height);
+    background-color: var(--color-white);
+    border-radius: 6px;
+    transform-origin: left center;
+    transition: opacity var(--hambuguer-animation), width var(--hambuguer-animation),
+        rotate var(--hambuguer-animation), translate var(--hambuguer-animation);
+}
+
+.project-hamburguer input {
+    appearance: none;
+    outline: none;
+    pointer-events: none;
+}
+
+.project-hamburguer input:checked {
+    opacity: 0;
+    width: 0;
+}
+
+.project-hamburguer:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--hambuguer-bar-height) / -2);
+}
+
+.project-hamburguer:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--hambuguer-bar-height) / 2);
+}
+
+.show-project-info {
+    display: block;
+}
+
+.hide-project-img {
+    display: none;
+}
+
 .title-container {
     display: flex;
     align-items: center;
