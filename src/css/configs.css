@@ -42,6 +42,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
     transition: background-color 200ms ease-in-out;
     background: linear-gradient(var(--color-black), rgba(0, 0, 0, 0.6));
+    z-index: 999;
 }
 
 .header-bg-nav-open {
