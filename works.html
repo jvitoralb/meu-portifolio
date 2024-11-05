@@ -54,15 +54,64 @@
     </header>
 
     <main>
+        <section id="gallery-modal-sec" class="gallery-modal">
+            <div class="exit-modal-btn-container">
+                <span id="exit-gallery" class="exit-modal-btn">X</span>
+            </div>
+            <div class="gallery-container">
+                <span id="backward" class="gallery-btn">&lt;</span>
+                <div class="image-container">
+                    <img id="gallery-image" class="gallery-image">
+                </div>
+                <span id="forward" class="gallery-btn">&gt;</span>
+            </div>
+        </section>
+        
         <section id="my-projects-section">
             <h1 id="my-projects-sec-header"></h1>
-            <div id="projects-articles-containter">
-                <article id="project-1-info" class="project"></article>
-                <article id="project-2-info" class="project project-inverse"></article>
-                <article id="project-3-info" class="project"></article>
-                <article id="project-4-info" class="project project-inverse"></article>
-                <article id="project-5-info" class="project"></article>
-                <article id="project-6-info" class="project project-inverse"></article>
+            <div id="projects-articles-containter" class="articles-container">
+                <article id="project-1-info" class="project">
+                    <div id="project-1-description-container" class="project-info"></div>
+                    <label aria-label="Open project 1 description" id="project-1-hamburguer" class="project-hamburguer">
+                        <input id="project-1-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-2-info" class="project">
+                    <div id="project-2-description-container" class="project-info"></div>
+                    <label aria-label="Open project 2 description" id="project-2-info-hamburguer" class="project-hamburguer">
+                        <input id="project-2-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-3-info" class="project">
+                    <div id="project-3-description-container" class="project-info"></div>
+                    <label aria-label="Open project 3 description" id="project-3-info-hamburguer" class="project-hamburguer">
+                        <input id="project-3-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-4-info" class="project">
+                    <div id="project-4-description-container" class="project-info"></div>
+                    <label aria-label="Open project 4 description" id="project-4-info-hamburguer" class="project-hamburguer">
+                        <input id="project-4-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-5-info" class="project">
+                    <div id="project-5-description-container" class="project-info"></div>
+                    <label aria-label="Open project 5 description" id="project-5-info-hamburguer" class="project-hamburguer">
+                        <input id="project-5-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-6-info" class="project">
+                    <div id="project-6-description-container" class="project-info"></div>
+                    <label aria-label="Open project 6 description" id="project-6-info-hamburguer" class="project-hamburguer">
+                        <input id="project-6-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
+                <article id="project-7-info" class="project">
+                    <div id="project-7-description-container" class="project-info"></div>
+                    <label aria-label="Open project 7 description" id="project-7-info-hamburguer" class="project-hamburguer">
+                        <input id="project-7-hamburguer-checkbox" type="checkbox" autocomplete="off" />
+                    </label>
+                </article>
             </div>
         </section>
     </main>
@@ -72,7 +121,7 @@
     </footer>
 
     <script type="module" src="src/js/index.js"></script>
-    <script type="module" src="src/js/works.js"></script>
+    <script type="module" src="src/js/works/works.js"></script>
 </body>
 
 </html>
