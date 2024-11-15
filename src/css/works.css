@@ -10,6 +10,7 @@ section#my-projects-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 8px 0;
 }
 
 @media (min-width: 690px) {
@@ -33,7 +34,8 @@ section#my-projects-section {
     width: 303px;
     overflow: hidden;
     position: relative;
-    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(240, 248, 255, 0.15);
     margin: 6px 0;
     display: flex;
     flex-direction: row-reverse;
@@ -46,6 +48,10 @@ section#my-projects-section {
 
 .project-info > p {
     padding: 12px 0;
+}
+
+.project-cover-img {
+    cursor: pointer;
 }
 
 .project-hamburguer {
@@ -187,11 +193,6 @@ section#my-projects-section {
 }
 
 .gallery-btn {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 4px;
-    color: white;
-    font-size: 36px;
-    font-weight: bolder;
     cursor: pointer;
 }
 
