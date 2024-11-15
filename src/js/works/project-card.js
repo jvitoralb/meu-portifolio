@@ -70,6 +70,7 @@ export default class GenerateProjectCard {
         const projectImage = document.createElement('img');
         projectImage.setAttribute('id', this.fixIdString(this.title));
         projectImage.setAttribute('src', this.img);
+        projectImage.classList.add('project-cover-img');
 
         this.article.appendChild(projectImage);
     }
