@@ -31,7 +31,6 @@ const main = () => {
     images.forEach((img) => {
         img.addEventListener('click', (e) => {
             let targetAlbum = e.target.id;
-            console.log(targetAlbum)
             openModal(targetAlbum);
             e.stopPropagation();
         });
