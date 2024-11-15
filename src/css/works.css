@@ -197,7 +197,7 @@ section#my-projects-section {
 }
 
 .exit-modal-btn-container {
-    width: 90vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: end;
