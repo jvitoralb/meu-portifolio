@@ -45,11 +45,14 @@ export default class GenerateProjectCard {
 
         svg.appendChild(path);
 
-        svg.addEventListener('click', () => 
-            this.titleContainer.querySelector(`#project-${this.id}-header-link`).click()
-        );
+        const link = document.createElement('a');
+        link.setAttribute('id', `project-${this.id}-link`);
+        link.setAttribute('href', this.repo);
+        link.setAttribute('target', '_blank');
 
-        this.titleContainer.appendChild(svg);
+        link.appendChild(svg);
+
+        this.titleContainer.appendChild(link);
     }
     genTitle() {
         const projectTitle = document.createElement('h3');
