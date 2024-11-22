@@ -53,15 +53,6 @@ export default [
     },
     {
         id: 6,
-        title: 'Catálogo Filmes',
-        desc: 'Uma REST API que faz o controle de um catálogo de filmes, onde esse catálogo só pode ser acessado caso o usuário seja autenticado. Esse projeto foi construido como parte de um processo seletivo. O desenvolvimento foi feito seguindo uma prática de TDD. E o deploy feito na plataforma render utilizando docker hub e pode demorar um pouco pra carregar, mas o serviço está online!',
-        repo: 'https://github.com/jvitoralb/catalogo-filmes',
-        img: [
-            '/src/images/API-IMAGE.png',
-        ],
-    },
-    {
-        id: 7,
         title: 'Microservices App',
         desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
         repo: 'https://github.com/jvitoralb/microservices-apis-app',
