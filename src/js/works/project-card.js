@@ -1,7 +1,8 @@
 export default class GenerateProjectCard {
-    constructor({ id, title, desc, repo, img }) {
+    constructor({ id, title, alias, desc, repo, img }) {
         this.id = id;
         this.title = title;
+        this.alias= alias;
         this.desc = desc;
         this.repo = repo;
         this.img = img[0];
@@ -13,9 +14,6 @@ export default class GenerateProjectCard {
         this.article = document.querySelector(`#project-${projectId}-info`);
     }
 
-    fixIdString(idString) {
-        return idString.replaceAll(' ', '-').toLowerCase();
-    }
     setProjectContainer() {
         this.container = document.querySelector(`#project-${this.id}-description-container`);
     }
@@ -56,7 +54,7 @@ export default class GenerateProjectCard {
     }
     genTitle() {
         const projectTitle = document.createElement('h3');
-        projectTitle.setAttribute('id', `project-${this.fixIdString(this.title)}`);
+        projectTitle.setAttribute('id', `project-${this.alias}`);
 
         projectTitle.appendChild(document.createTextNode(this.title));
 
@@ -71,9 +69,10 @@ export default class GenerateProjectCard {
     }
     genImage() {
         const projectImage = document.createElement('img');
-        projectImage.setAttribute('id', this.fixIdString(this.title));
+        projectImage.setAttribute('id', this.alias);
         projectImage.setAttribute('src', this.img);
         projectImage.classList.add('project-cover-img');
+        projectImage.classList.add('disable-select');
 
         this.article.appendChild(projectImage);
     }
