@@ -2,6 +2,7 @@ export default [
     {
         id: 1,
         title: 'Architects',
+        alias: 'architects',
         desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
         img: [
             '/src/images/projects/architects/034-home-visivel-architects.png',
@@ -36,10 +37,16 @@ export default [
     {
         id: 4,
         title: 'Quality Assurance App',
+        alias: 'qa-app',
         desc: 'Um aplicativo Full Stack, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
         repo: 'https://github.com/jvitoralb/quality-assurance-app',
         img: [
-            '/src/images/WEB-APP-IMAGE.png',
+            '/src/images/projects/qa-app/061-qa-projects-home.png',
+            '/src/images/projects/qa-app/062-qa-projects-converter.png',
+            '/src/images/projects/qa-app/063-qa-projects-issues-tracker.png',
+            '/src/images/projects/qa-app/064-qa-projects-personal-library.png',
+            '/src/images/projects/qa-app/065-qa-projects-sudoku-solver.png',
+            '/src/images/projects/qa-app/066-qa-projects-english-translator.png',
         ],
     },
     {
@@ -54,10 +61,16 @@ export default [
     {
         id: 6,
         title: 'Microservices App',
+        alias: 'microservices-app',
         desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
         repo: 'https://github.com/jvitoralb/microservices-apis-app',
         img: [
-            '/src/images/WEB-APP-IMAGE.png',
+            '/src/images/projects/microservices-app/067-microservices-projects-index.png',
+            '/src/images/projects/microservices-app/068-microservices-projects-timestamp.png',
+            '/src/images/projects/microservices-app/069-microservices-projects-header-parser.png',
+            '/src/images/projects/microservices-app/070-microservices-projects-url-shortener.png',
+            '/src/images/projects/microservices-app/071-microservices-projects-exercise-tracker.png',
+            '/src/images/projects/microservices-app/072-microservices-projects-file-metadata.png',
         ],
     },
 ];
