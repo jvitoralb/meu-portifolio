@@ -19,7 +19,7 @@ export default class Gallery {
         galleryImage.setAttribute('src', this.currentImage);
     }
     setCurrentAlbum(targetAlbum) {
-        let [ { img } ] = projectsData.filter((project) => project.title.toLocaleLowerCase() === targetAlbum);
+        let [ { img } ] = projectsData.filter((project) => project.alias === targetAlbum);
         this.currentAlbum = img;
     }
     setCurrentImage() {
