@@ -15,7 +15,9 @@ const main = () => {
         input.addEventListener('click', (e) => {
             let targetProject = e.target.id;
             let targetElem = targetProject.replace('hamburguer-checkbox', '');
-            
+
+            e.target.parentNode.classList.toggle('ham-bg');
+
             document
             .querySelector(`#${targetElem}description-container`)
             .classList.toggle('show-project-info');
