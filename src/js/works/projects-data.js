@@ -19,19 +19,31 @@ export default [
     {
         id: 2,
         title: 'My Books App',
+        alias: 'notes-app',
         desc: 'Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
         repo: 'https://github.com/jvitoralb/my-books-app',
         img: [
-            '/src/images/WEB-APP-IMAGE.png',
+            '/src/images/projects/notes-app/100-notesapp-welcome.png',
+            '/src/images/projects/notes-app/101-notesapp-welcome-dark.png',
+            '/src/images/projects/notes-app/104-notesapp-login.png',
+            '/src/images/projects/notes-app/094-notesapp-home.png',
+            '/src/images/projects/notes-app/096-notesapp-home-more-dark.png',
+            '/src/images/projects/notes-app/097-notesapp-settings.png',
+            '/src/images/projects/notes-app/098-notesapp-email-settings.png',
         ],
     },
     {
         id: 3,
         title: 'Biblioteca API',
+        alias: 'library',
         desc: 'Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.',
         repo: 'https://github.com/jvitoralb/dio-lab-rest-api',
         img: [
-            '/src/images/API-IMAGE.png',
+            '/src/images/projects/library/078-library-ui.png',
+            '/src/images/projects/library/079-library-create-user.png',
+            '/src/images/projects/library/080-library-create-book.png',
+            '/src/images/projects/library/081-library-create-loan.png',
+            '/src/images/projects/library/082-library-schemas.png',
         ],
     },
     {
@@ -52,10 +64,12 @@ export default [
     {
         id: 5,
         title: 'Análise de dados',
+        alias: 'sa',
         desc: 'Uma aplicação Web Fullstack, desenvolvida com Vuejs e Nestjs, que faz a leitura de planilhas com a biblioteca Exceljs, e utiliza os dados para o cálculo de indicadores financeiros, e assim, demontrar os indicadores em gráficos construídos com D3.js. A aplicação foi desenvolvida em ambiente docker, onde o backend foi feito seguindo uma prática de TDD com Jest.',
         repo: 'https://github.com/jvitoralb/spreadsheet-analysis',
         img: [
-            '/src/images/WEB-APP-IMAGE.png',
+            '/src/images/projects/sa/106-sa-analysis-page.png',
+            '/src/images/projects/sa/109-sa-charts.png',
         ],
     },
     {
