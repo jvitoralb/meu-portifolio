@@ -7,7 +7,7 @@
     "langsDropdownLabel": "English",
     "myProjectsSecHeader": "My <span class=\"highlight\">Projects</span>",
     "project1Description": "Portfolio website created for an architecture firm, with a modern and fully responsive design, supporting devices with different resolutions. The website was developed using HTML, Tailwind and JavaScript.",
-    "project2Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles. Here the challenge was to use JSON Web Tokens to handle user data securely. The development process followed a TDD approach.",
+    "project2Description": "This is a full-stack app with a simple front-end, developed using Node, TypeScript, and React. The backend was built following the REST and Microservices architectural styles. A key challenge was implementing JSON Web Tokens to securely manage user data. The development process adhered to a TDD approach.",
     "project2Link": {
         "title": "Go to this project repository"
     },

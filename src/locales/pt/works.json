@@ -6,7 +6,7 @@
     "langsDropdownLabel": "Português",
     "myProjectsSecHeader": "Meus <span class=\"highlight\">Projetos</span>",
     "project1Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
-    "project2Description": "Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
+    "project2Description": "Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
     "project2Link": {
         "title": "Ir ao repositório desse projeto"
     },
@@ -14,7 +14,7 @@
     "project3Link": {
         "title": "Ir ao repositório desse projeto"
     },
-    "project4Description": "Um aplicativo Full Stack, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB. A arquitetura de backend foi segue o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
+    "project4Description": "Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
     "project4Link": {
         "title": "Ir ao repositório desse projeto"
     },

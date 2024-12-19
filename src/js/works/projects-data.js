@@ -20,7 +20,7 @@ export default [
         id: 2,
         title: 'My Books App',
         alias: 'notes-app',
-        desc: 'Um aplicativo Full Stack MERN desenvolvido com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microsserviços. Aqui o desafio era usar JSON Web Tokens para lidar com os dados do usuário de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
+        desc: 'Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
         repo: 'https://github.com/jvitoralb/my-books-app',
         img: [
             '/src/images/projects/notes-app/100-notesapp-welcome.png',
@@ -50,7 +50,7 @@ export default [
         id: 4,
         title: 'Quality Assurance App',
         alias: 'qa-app',
-        desc: 'Um aplicativo Full Stack, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD (Desenvolvimento Orientado a Testes) usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
+        desc: 'Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
         repo: 'https://github.com/jvitoralb/quality-assurance-app',
         img: [
             '/src/images/projects/qa-app/061-qa-projects-home.png',
