@@ -16,20 +16,20 @@
     "myServicesDescription2": "Whether you need to build an online presence from scratch or need support and maintenance, I provide reliable solutions to help you grow and excel digitally.",
     "recentWorksSecHeader": "Most recent <span class=\"highlight\">works</span>",
     "workCard1Link": {
+        "text": "Architects",
+        "title": "See project on works page"
+    },
+    "workCard1Description": "Portfolio website created for an architecture firm, with a modern and fully responsive design, supporting devices with different resolutions. The website was developed using HTML, Tailwind and JavaScript.",
+    "workCard2Link": {
         "text": "My Books App",
         "title": "See project on works page"
     },
-    "workCard1Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles.",
-    "workCard2Link": {
+    "workCard2Description": "A Full Stack MERN application built with TypeScript and Reactjs. The backend was built following the REST and Microservices architectural styles.",
+    "workCard3Link": {
         "text": "Biblioteca API",
         "title": "See project on works page"
     },
-    "workCard2Description": "A REST API built with Java to simulate library operations, such as registering books, and users and issuing book loans to registered users.",
-    "workCard3Link": {
-        "text": "Quality Assurance App",
-        "title": "See project on works page"
-    },
-    "workCard3Description": "An end-to-end application built with JavaScript to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB.",
+    "workCard3Description": "A REST API built with Java to simulate library operations, such as registering books, and users and issuing book loans to registered users.",
     "seeMoreProjectsLink": {
         "text": "See more projects",
         "title": "See more projects on works page"
