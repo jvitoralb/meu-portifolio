@@ -15,20 +15,20 @@
     "myServicesDescription2": "Se você precisa construir uma presença online do zero ou de suporte e manutenção, eu forneço soluções confiáveis para ajudar você a crescer e se destacar digitalmente.",
     "recentWorksSecHeader": "<span class=\"highlight\">Trabalhos</span> mais recentes",
     "workCard1Link": {
+        "text": "Agência Digital",
+        "title": "Ver na página projetos"
+    },
+    "workCard1Description": "Site insitucional criado para uma agência digital, desenvolvido em WordPress e Elementor, conta com um design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções.",
+    "workCard2Link": {
         "text": "Architects",
         "title": "Ver na página projetos"
     },
-    "workCard1Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
-    "workCard2Link": {
+    "workCard2Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
+    "workCard3Link": {
         "text": "My Books App",
         "title": "Ver na página projetos"
     },
-    "workCard2Description": "Um aplicativo Full Stack MERN construído com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microservices.",
-    "workCard3Link": {
-        "text": "Biblioteca API",
-        "title": "Ver na página projetos"
-    },
-    "workCard3Description": "Uma REST API desenvolvida em java para simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados.",
+    "workCard3Description": "Um aplicativo Full Stack MERN construído com TypeScript e Reactjs. O backend foi construído seguindo os estilos arquiteturais REST e Microservices.",
     "seeMoreProjectsLink": {
         "text": "Ver mais projetos",
         "title": "Ver mais na página projetos"

@@ -5,24 +5,21 @@
     "contactLink": "Contato",
     "langsDropdownLabel": "Português",
     "myProjectsSecHeader": "Meus <span class=\"highlight\">Projetos</span>",
-    "project1Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
-    "project2Description": "Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
-    "project2Link": {
-        "title": "Ir ao repositório desse projeto"
-    },
-    "project3Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",
+    "project1Description": "Site insitucional criado para uma agência digital, desenvolvido em WordPress e Elementor, conta com um design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções.",
+    "project2Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
+    "project3Description": "Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
     "project3Link": {
         "title": "Ir ao repositório desse projeto"
     },
-    "project4Description": "Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
+    "project4Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",
     "project4Link": {
         "title": "Ir ao repositório desse projeto"
     },
-    "project5Description": "Aplicação Web Fullstack, desenvolvida com Vue e Nestjs, que lê e extrai dados de planilhas com a biblioteca Exceljs, faz o cálculo de indicadores financeiros, e usa gráficos feitos com D3.js para expor as métricas calculadas. A aplicação foi desenvolvida em ambiente docker, e seguindo a prática de TDD.",
+    "project5Description": "Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
     "project5Link": {
         "title": "Ir ao repositório desse projeto"
     },
-    "project6Description": "Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.",
+    "project6Description": "Aplicação Web Fullstack, desenvolvida com Vue e Nestjs, que lê e extrai dados de planilhas com a biblioteca Exceljs, faz o cálculo de indicadores financeiros, e usa gráficos feitos com D3.js para expor as métricas calculadas. A aplicação foi desenvolvida em ambiente docker, e seguindo a prática de TDD.",
     "project6Link": {
         "title": "Ir ao repositório desse projeto"
     }

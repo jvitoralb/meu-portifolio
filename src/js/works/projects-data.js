@@ -1,9 +1,25 @@
 export default [
     {
         id: 1,
+        title: 'Agência digital',
+        alias: 'digital-agency',
+        desc: 'Um projeto feito em WordPress e Elementor, criado para uma agência digital com design moderno e totalmente responsivo.',
+        img: [
+            '/src/images/projects/digital-agency/115-home-visivel-Plenittá.png',
+            '/src/images/projects/digital-agency/114-home-full-Plenittá.png',
+            '/src/images/projects/digital-agency/117-quem-somos-visivel-Plenittá.png',
+            '/src/images/projects/digital-agency/116-quem-somos-full-Plenittá.png',
+            '/src/images/projects/digital-agency/119-servicos-visivel-Plenittá.png',
+            '/src/images/projects/digital-agency/118-servicos-full-Plenittá.png',
+            '/src/images/projects/digital-agency/121-contato-visivel-Plenittá.png',
+            '/src/images/projects/digital-agency/120-contato-full-Plenittá.png',
+        ],
+    },
+    {
+        id: 2,
         title: 'Architects',
         alias: 'architects',
-        desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
+        desc: 'Um projeto feito em HTML, Tailwind e JavaScript, criado para uma firma de arquitetura com design moderno e totalmente responsivo.',
         img: [
             '/src/images/projects/architects/034-home-visivel-architects.png',
             '/src/images/projects/architects/035-home-full-architects.png',
@@ -17,7 +33,7 @@ export default [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: 'My Books App',
         alias: 'notes-app',
         desc: 'Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
@@ -33,7 +49,7 @@ export default [
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: 'Biblioteca API',
         alias: 'library',
         desc: 'Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.',
@@ -47,7 +63,7 @@ export default [
         ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'Quality Assurance App',
         alias: 'qa-app',
         desc: 'Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
@@ -62,7 +78,7 @@ export default [
         ],
     },
     {
-        id: 5,
+        id: 6,
         title: 'Análise de dados',
         alias: 'sa',
         desc: 'Uma aplicação Web Fullstack, desenvolvida com Vuejs e Nestjs, que faz a leitura de planilhas com a biblioteca Exceljs, e utiliza os dados para o cálculo de indicadores financeiros, e assim, demontrar os indicadores em gráficos construídos com D3.js. A aplicação foi desenvolvida em ambiente docker, onde o backend foi feito seguindo uma prática de TDD com Jest.',
@@ -70,21 +86,6 @@ export default [
         img: [
             '/src/images/projects/sa/106-sa-analysis-page.png',
             '/src/images/projects/sa/109-sa-charts.png',
-        ],
-    },
-    {
-        id: 6,
-        title: 'Microservices App',
-        alias: 'microservices-app',
-        desc: 'Um projeto Fullstack com Frontend feito em HTML e CSS, e onde o desafio foi desenvolver a arquitetura de Backend seguindo o estilo de Microsserviços e utilizar as operações CRUD.',
-        repo: 'https://github.com/jvitoralb/microservices-apis-app',
-        img: [
-            '/src/images/projects/microservices-app/067-microservices-projects-index.png',
-            '/src/images/projects/microservices-app/068-microservices-projects-timestamp.png',
-            '/src/images/projects/microservices-app/069-microservices-projects-header-parser.png',
-            '/src/images/projects/microservices-app/070-microservices-projects-url-shortener.png',
-            '/src/images/projects/microservices-app/071-microservices-projects-exercise-tracker.png',
-            '/src/images/projects/microservices-app/072-microservices-projects-file-metadata.png',
         ],
     },
 ];
