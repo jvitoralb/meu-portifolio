@@ -72,17 +72,9 @@ export default class GenerateProjectCard {
         projectImage.setAttribute('id', this.alias);
         projectImage.style.backgroundImage = `url(${this.img})`;
         projectImage.classList.add('project-cover-img');
+        projectImage.classList.add('disable-select');
 
         this.article.appendChild(projectImage);
-
-
-        // const projectImage = document.createElement('img');
-        // projectImage.setAttribute('id', this.alias);
-        // projectImage.setAttribute('src', this.img);
-        // projectImage.classList.add('project-cover-img');
-        // projectImage.classList.add('disable-select');
-
-        // this.article.appendChild(projectImage);
     }
     
     generate() {
