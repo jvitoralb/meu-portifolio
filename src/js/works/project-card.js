@@ -68,13 +68,21 @@ export default class GenerateProjectCard {
         this.container.appendChild(projectDescription);
     }
     genImage() {
-        const projectImage = document.createElement('img');
+        const projectImage = document.createElement('div');
         projectImage.setAttribute('id', this.alias);
-        projectImage.setAttribute('src', this.img);
+        projectImage.style.backgroundImage = `url(${this.img})`;
         projectImage.classList.add('project-cover-img');
-        projectImage.classList.add('disable-select');
 
         this.article.appendChild(projectImage);
+
+
+        // const projectImage = document.createElement('img');
+        // projectImage.setAttribute('id', this.alias);
+        // projectImage.setAttribute('src', this.img);
+        // projectImage.classList.add('project-cover-img');
+        // projectImage.classList.add('disable-select');
+
+        // this.article.appendChild(projectImage);
     }
     
     generate() {

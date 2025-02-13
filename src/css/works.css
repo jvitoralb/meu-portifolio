@@ -31,7 +31,7 @@ section#my-projects-section {
 
 .project {
     height: 245px;
-    width: 303px;
+    width: var(--works-card-width);
     overflow: hidden;
     position: relative;
     border-radius: 3px;
@@ -39,6 +39,7 @@ section#my-projects-section {
     margin: 6px 0;
     display: flex;
     flex-direction: row-reverse;
+    backdrop-filter: blur(3px);
 }
 
 .project-info {
@@ -52,6 +53,10 @@ section#my-projects-section {
 
 .project-cover-img {
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: var(--works-card-width);
 }
 
 .project-hamburguer {

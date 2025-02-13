@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: 'Agência digital',
+        title: 'Plenittá - Agência digital',
         alias: 'digital-agency',
         desc: 'Um projeto feito em WordPress e Elementor, criado para uma agência digital com design moderno e totalmente responsivo.',
         img: [
@@ -17,7 +17,7 @@ export default [
     },
     {
         id: 2,
-        title: 'Architects',
+        title: 'Architects - Site Portfolio',
         alias: 'architects',
         desc: 'Um projeto feito em HTML, Tailwind e JavaScript, criado para uma firma de arquitetura com design moderno e totalmente responsivo.',
         img: [

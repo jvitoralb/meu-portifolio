@@ -19,6 +19,7 @@
     --color-black: black;
     --color-yellow: rgb(255, 214, 67);
     --color-white: rgb(240, 248, 255);
+    --works-card-width: 303px;
 }
 
 body {

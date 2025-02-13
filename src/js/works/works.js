@@ -23,7 +23,7 @@ const main = () => {
             .classList.toggle('show-project-info');
 
             document
-            .querySelector(`#${targetElem}info > img`)
+            .querySelector(`#${targetElem}info > div`)
             .classList.toggle('hide-project-img');
         });
     });
