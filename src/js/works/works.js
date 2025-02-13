@@ -28,7 +28,7 @@ const main = () => {
         });
     });
 
-    const images = document.querySelectorAll('.project > img');
+    const images = document.querySelectorAll('.project > div');
 
     images.forEach((img) => {
         img.addEventListener('click', (e) => {
