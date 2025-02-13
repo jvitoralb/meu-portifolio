@@ -105,14 +105,14 @@ section#recent-works-section {
 }
 
 .work-card {
-    color: var(--color-black);
+    color: var(--color-white);
     padding: 6px;
     margin: 12px;
     min-width: 60vw;
     width: 250px;
     border-radius: 3px;
-    background-color: rgba(240, 248, 255, 0.95);
-    box-shadow: 0 0 3px 2px rgba(240, 248, 255, 0.95);
+    box-shadow: 0 0 2px 2px rgba(240, 248, 255, 0.15);
+    backdrop-filter: blur(3px);
 }
 
 .work-card > * {
@@ -121,11 +121,11 @@ section#recent-works-section {
 
 .work-card-link {
     font-weight: 600;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 .work-card-link:hover {
-    color: rgb(70, 70, 70);
+    color: var(--color-yellow);
     text-decoration: underline;
 }
 
