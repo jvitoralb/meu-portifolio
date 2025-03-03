@@ -4,8 +4,12 @@
     "worksLink": "Projetos",
     "contactLink": "Contato",
     "langsDropdownLabel": "Português",
-    "aboutMe1": "Sou desenvolvedor Fullstack, e venho criando aplicações web há 2 anos. No frontend, possuo experiência desenvolvendo sites estáticos, com diferentes tecnologias, desde mais complexas como Reactjs e Vuejs até mais simples, como, HTML, CSS e Bootstrap. Em se tratando de backend, possuo uma maior familiaridade e conhecimento. Gosto de trabalhar com os estilos de arquitetura de Microsserviços e REST, e busco sempre garantir a qualidade do código utilizando testes automatizados seguindo o padrão TDD.<span class=\"break-line\"></span>Quando estou trabalhando, valorizo muito o uso das boas práticas de desenvolvimento e de padrões de design, pois acredito que ajuda a escrever um código mais sustentável.",
-    "aboutMe2": "Gosto  de trabalhar com pessoas talentosas, compartilhando experiencias e criando produtos que causem impactos positivos. Sou uma pessoa muito comprometida, que está sempre buscando aprender mais, seja sobre tecnologia e inovação ou crescimento pessoal.",
+    "aboutMe1": "Sou desenvolvedor web, com mais de 3 anos de experiência, já trabalhei em projetos que vão desde landing pages e sites institucionais até aplicações web mais complexas. Me especializo no desenvolvimento de sites com interfaces amigáveis e design responsivo, utilizando diferentes tecnologias.",
+    "listTitle": "Ao longo da minha carreira, desenvolvi habilidades sólidas em:",
+    "item1": "Desenvolvimento WordPress: Criação de sites utilizando WordPress, incluindo temas e plugins personalizados, otimização de performance e SEO.",
+    "item2": "Front-end: Desenvolvimento de interfaces responsivas e modernas com HTML, CSS, JavaScript e Bootstrap.",
+    "item3": "Back-end: Desenvolvimento de APIs RESTful com Node.js e Java e integração com bancos de dados SQL (como PostgreSQL) e NoSQL (como MongoDB).",
+    "item4": "Boas Práticas e Arquitetura: Conhecimentos em arquitetura de software (como microsserviços) e quality assurance para garantir a qualidade, escalabilidade e manutenibilidade dos projetos.",
     "aboutMeSocialsLinkedin": {
         "text": "LinkedIn",
         "title": "Ir ao perfil do LinkedIn"

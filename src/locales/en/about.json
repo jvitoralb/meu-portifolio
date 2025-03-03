@@ -5,8 +5,12 @@
     "worksLink": "Works",
     "contactLink": "Contact",
     "langsDropdownLabel": "English",
-    "aboutMe1": "I'm a Fullstack developer, and I've been creating web applications for 2 years. On the front end, I have experience developing static websites, with different technologies, such as complex frameworks and libraries like Reactjs and Vuejs, and simpler ones, like HTML, CSS, and Bootstrap. When it comes to the backend, I have greater familiarity and knowledge. I like working with the Microservices and REST architectural styles, and I always seek to assure the code quality using automated tests following the TDD standard.<span class=\"break-line\"></span>When I'm working, I value good development practices and design patterns, as I believe it helps to write more sustainable code.",
-    "aboutMe2": "I like working with talented people, sharing experiences and creating products that make a positive impact. I am a very committed person, who is always looking to learn more, whether about technology and innovation or personal growth.",
+    "aboutMe1": "I am a web developer with over three years of experience. My projects range from landing pages and institutional websites to more complex web applications. I specialize in developing websites with user-friendly interfaces and responsive design using different technologies.",
+    "listTitle": "Throughout my career, I have developed solid knowledge in:",
+    "item1": "WordPress Development: Creating websites using WordPress, including custom themes and plugins, performance optimization, and SEO.",
+    "item2": "Front-end: Building responsive and modern interfaces with HTML, CSS, JavaScript, and Bootstrap.",
+    "item3": "Back-end: Developing RESTful APIs using Node.js and Java with SQL and NoSQL database integration.",
+    "item4": "Best Practices and Architecture: Applying knowledge in software architecture and quality assurance to ensure project quality, scalability, and maintainability.",
     "aboutMeSocialsLinkedin": {
         "text": "LinkedIn",
         "title": "Go to LinkedIn page"
