@@ -26,6 +26,15 @@ section#about-me-section h1 {
     margin-bottom: 6px;
 }
 
+.skills-list {
+    list-style-type: "-";
+    padding: 0 12px;
+}
+
+.skills-list li {
+    padding: 3px;
+}
+
 @media(min-width: 940px) {
     section#about-me-section {
         height: 100vh;
