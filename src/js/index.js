@@ -7,11 +7,14 @@ function pageLangHandler() {
 
     (async function resolvePageLocales() {
         let page = '';
+        let portfolio = false;
     
         switch(window.location.pathname) {
             case '/about.html':
                 page = 'about';
                 break;
+            case '/portfolio/index.html':
+                portfolio = true;
             case '/works.html':
                 page = 'works';
                 break;
@@ -23,8 +26,8 @@ function pageLangHandler() {
         }
     
         const loadedLocales = await Promise.all([
-            fetch(`src/locales/pt/${page}.json`).then(res => res.json()),
-            fetch(`src/locales/en/${page}.json`).then(res => res.json()),
+            fetch(`${(portfolio ? '../' : './')}src/locales/pt/${page}.json`).then(res => res.json()),
+            fetch(`${(portfolio ? '../' : './')}src/locales/en/${page}.json`).then(res => res.json()),
         ]);
 
         translator.setLocalesTranslations = loadedLocales;
