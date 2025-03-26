@@ -5,17 +5,14 @@
     "contactLink": "Contato",
     "langsDropdownLabel": "Português",
     "myProjectsSecHeader": "Meus <span class=\"highlight\">Projetos</span>",
-    "project1Description": "Site insitucional criado para uma agência digital, desenvolvido em WordPress e Elementor, conta com um design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções.",
-    "project2Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
-    "project3Description": "Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
-    "project3Link": {
-        "title": "Ir ao repositório desse projeto"
-    },
-    "project4Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",
+    "project1Description": "Landing Page criada para uma empresa especializada em trabalhar com moveis e revestimento de madeira. A página foi desenvolvida com WordPress e Elementor, e conta com um design moderno e responsivo.",
+    "project2Description": "Site insitucional criado para uma agência digital, desenvolvido em WordPress e Elementor, conta com um design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções.",
+    "project3Description": "Site portfólio criado para uma firma de arquitetura, com design moderno e totalmente responsivo, comportando dispositivos de diferentes resoluções. O site foi desenvolvido utilizando HTML, Tailwind e JavaScript.",
+    "project4Description": "Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.",
     "project4Link": {
         "title": "Ir ao repositório desse projeto"
     },
-    "project5Description": "Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.",
+    "project5Description": "Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.",
     "project5Link": {
         "title": "Ir ao repositório desse projeto"
     },

@@ -1,7 +1,17 @@
 export default [
     {
         id: 1,
-        title: 'Plenittá - Agência digital',
+        title: 'Igara - Landing Page',
+        alias: 'igara',
+        desc: 'Um projeto feito em WordPress e Elementor, criado para uma agência digital com design moderno e totalmente responsivo.',
+        img: [
+            '/src/images/projects/igara/138-visivel-igara-lp.png',
+            '/src/images/projects/igara/136-full-igara-lp.png',
+        ],
+    },
+    {
+        id: 2,
+        title: 'Plenittá - Site Institucional',
         alias: 'digital-agency',
         desc: 'Um projeto feito em WordPress e Elementor, criado para uma agência digital com design moderno e totalmente responsivo.',
         img: [
@@ -16,7 +26,7 @@ export default [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: 'Architects - Site Portfolio',
         alias: 'architects',
         desc: 'Um projeto feito em HTML, Tailwind e JavaScript, criado para uma firma de arquitetura com design moderno e totalmente responsivo.',
@@ -33,7 +43,7 @@ export default [
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: 'My Books App',
         alias: 'notes-app',
         desc: 'Aplicativo de design simples, desenvolvido com Node, TypeScript e React. O backend foi feito seguindo os estilos arquiteturais REST e Microsserviços. O desafio foi usar JSON Web Tokens para lidar com dados dos usuários de forma segura. O processo de desenvolvimento seguiu uma abordagem TDD.',
@@ -49,7 +59,7 @@ export default [
         ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'Biblioteca API',
         alias: 'library',
         desc: 'Uma REST API desenvolvida para a conclusão do Santander Bootcamp 2023. O objetivo foi simular operações de uma biblioteca, como registrar livros, usuários e emitir empréstimo de livros aos usuários registrados. A API foi desenvolvida na linguagem Java utilizando Spring Framework, e PostgreSQL.',
@@ -60,21 +70,6 @@ export default [
             '/src/images/projects/library/080-library-create-book.png',
             '/src/images/projects/library/081-library-create-loan.png',
             '/src/images/projects/library/082-library-schemas.png',
-        ],
-    },
-    {
-        id: 5,
-        title: 'Quality Assurance App',
-        alias: 'qa-app',
-        desc: 'Um aplicativo Full Stack, com design básico, hospedado na nuvem e construído com JavaScript. O objetivo era aplicar o TDD usando Chaijs, Nodejs, Express e MongoDB. A arquitetura backend foi desenvolvida seguindo o estilo Microsserviços, visando autonomia dos serviços e melhor escalabilidade.',
-        repo: 'https://github.com/jvitoralb/quality-assurance-app',
-        img: [
-            '/src/images/projects/qa-app/061-qa-projects-home.png',
-            '/src/images/projects/qa-app/062-qa-projects-converter-full.png',
-            '/src/images/projects/qa-app/063-qa-projects-issues-tracker-full.png',
-            '/src/images/projects/qa-app/064-qa-projects-personal-library-full.png',
-            '/src/images/projects/qa-app/065-qa-projects-sudoku-solver-full.png',
-            '/src/images/projects/qa-app/066-qa-projects-english-translator.png',
         ],
     },
     {

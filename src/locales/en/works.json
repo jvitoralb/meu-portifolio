@@ -6,17 +6,14 @@
     "contactLink": "Contact",
     "langsDropdownLabel": "English",
     "myProjectsSecHeader": "My <span class=\"highlight\">Projects</span>",
-    "project1Description": "An institutional website created for a digital agency, developed using WordPress and Elementor, and has a modern and fully responsive design supporting devices with different resolutions.",
-    "project2Description": "Portfolio website created for an architecture firm, with a modern and fully responsive design, supporting devices with different resolutions. The website was developed using HTML, Tailwind and JavaScript.",
-    "project3Description": "This is a full-stack app with a simple front-end, developed using Node, TypeScript, and React. The backend was built following the REST and Microservices architectural styles. A key challenge was implementing JSON Web Tokens to securely manage user data. The development process adhered to a TDD approach.",
-    "project3Link": {
-        "title": "Go to this project repository"
-    },
-    "project4Description": "A REST API was developed for the Santander Bootcamp 2023. The objective was to simulate library operations, such as registering books, and users and issuing book loans to registered users. The API was developed with Java using Spring Framework and PostgreSQL.",
+    "project1Description": "Landing Page was created for a company that specializes in working with furniture and wood cladding. The page was developed with WordPress and Elementor, and has a modern and responsive design.",
+    "project2Description": "An institutional website created for a digital agency, developed using WordPress and Elementor, and has a modern and fully responsive design supporting devices with different resolutions.",
+    "project3Description": "Portfolio website created for an architecture firm, with a modern and fully responsive design, supporting devices with different resolutions. The website was developed using HTML, Tailwind and JavaScript.",
+    "project4Description": "This is a full-stack app with a simple front-end, developed using Node, TypeScript, and React. The backend was built following the REST and Microservices architectural styles. A key challenge was implementing JSON Web Tokens to securely manage user data. The development process adhered to a TDD approach.",
     "project4Link": {
         "title": "Go to this project repository"
     },
-    "project5Description": "An end-to-end application, hosted in the cloud, and built with JavaScript. The goal was to apply Test Driven Development using Chaijs, Nodejs, Express, and MongoDB. The backend architecture was developed following the Microservices style, aiming services' autonomy and a better scalability.",
+    "project5Description": "A REST API was developed for the Santander Bootcamp 2023. The objective was to simulate library operations, such as registering books, and users and issuing book loans to registered users. The API was developed with Java using Spring Framework and PostgreSQL.",
     "project5Link": {
         "title": "Go to this project repository"
     },
